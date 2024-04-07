@@ -2,7 +2,7 @@
   --background1: #344f81;
   --background2: #39a0ed;
   --background3: #9cf600cd;
-  --background4: #5fe3cd;
+  --background4: #9FBB73;
 }
 body {
   background-color: var(--background4);
@@ -100,7 +100,7 @@ table>tr:nth-child() {
 .fooditem>p {
   font-weight: bold;
 }
-.food-item>h6 {
+.food-item>h3 {
   font-size: 50px;
   padding: 0px 0px;
   text-decoration: underline solid black;
@@ -129,49 +129,15 @@ table>tr:nth-child() {
   font-size: 30px;
   margin-left: 2vw;
 }
-footer {
-  background-image: url(logos/banner-cropped.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0px 0px;
-  padding: 0px 0px;
-  display: flex;
-}
-footer div{
-  flex: 1;
+
+.footer{
+  background-color: black;
+  width: 100%;
+  display:flex ;
+  justify-content: space-around;
+  align-items: center;
   color: white;
 }
-
-/*
-footer .address {
-  color: white;
-  font-size: 18px;
-  padding-left: 2vw;
-  font-weight: bold;
-  line-height: 40px;
-}
-.cont-h {
-  color: white;
-  font-size: 22px;
-  font-weight: bolder;
-  text-decoration: underline solid 2px rgb(255, 255, 255);
-}
-footer p .copyright{
-  text-align: right;
-  float: right;
-}
-/*
-HTML code  
-<div class="contact">
-        <p class="cont-h">Contact Us :</p>
-        <div class="address">
-            <p>Little Lemon Restaurant</p>
-            <p>Street: 798 Archwood Avenue <br> City: Mountain View <br> State/province/area: Wyoming <br> Phone number 307-759-0473 <br> Zip code 82939 <br> Country calling code +1 <br> Country United States</p>
-        </div>
-    </div>
-*/
-
-
 @media screen and (max-width: 750px) {
   .fooditem {
       width: 43%;
@@ -179,7 +145,7 @@ HTML code
       padding: 5px;
       margin: 5px 5px;
   }
-  .fooditem>h6 {
+  .fooditem>h3 {
       font-size: 18px;
       margin: 25px 0px 20px 0px;
       text-decoration: underline solid black;
